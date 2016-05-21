@@ -1,0 +1,62 @@
+body{
+	font-size: 7rem;
+}
+#square1,#square4,#square7{
+	width: 5rem;
+  height: 5rem;
+}
+
+#firstRow,#secondRow{
+  border-bottom: thick double black;
+  width: 22rem;
+  margin: 0;
+}
+#thirdRow{
+	width: 22rem;
+  margin: 0;
+}
+ol#firstRow li,ol#secondRow li,ol#thirdRow li {
+    display: inline;
+}
+
+li#square2,li#square5,li#square8 {
+    border-right: thick double red;
+    border-left: thick double red;
+    padding:1rem;
+}
+
+table{
+	height: 354px; 
+	width:354px;	
+	border-collapse:collapse;
+	border:1rem solid black;
+}
+
+table td,tr{
+border:1rem solid black;
+height: 4rem;
+width: 4rem;
+//padding:3rem;
+text-align: center;
+}
+
+#outSide{
+	background-color: none;
+	/*overflow:hidden;*/
+	width:4rem;
+	/*height: 4rem;*/
+}
+.top{
+	border-top:hidden;
+}
+
+.bottom{
+	border-bottom:hidden;
+}
+
+#s3,#s6,#s9{
+	border-right:hidden;
+}
+#s1,#s4,#s7{
+	border-left:hidden;
+}
