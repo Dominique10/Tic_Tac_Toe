@@ -16,13 +16,13 @@ body{
   margin: 0;
 }
 ol#firstRow li,ol#secondRow li,ol#thirdRow li {
-    display: inline;
+  display: inline;
 }
 
 li#square2,li#square5,li#square8 {
-    border-right: thick double red;
-    border-left: thick double red;
-    padding:1rem;
+  border-right: thick double red;
+  border-left: thick double red;
+  padding:1rem;
 }
 
 table{
@@ -33,19 +33,18 @@ table{
 }
 
 table td,tr{
-border:1rem solid black;
-height: 4rem;
-width: 4rem;
-//padding:3rem;
-text-align: center;
+	border:1rem solid black;
+	height: 4rem;
+	width: 4rem;
+	padding:3rem;
+	text-align: center;
 }
 
 #outSide{
 	background-color: none;
-	/*overflow:hidden;*/
 	width:4rem;
-	/*height: 4rem;*/
 }
+
 .top{
 	border-top:hidden;
 }
@@ -57,6 +56,18 @@ text-align: center;
 #s3,#s6,#s9{
 	border-right:hidden;
 }
+
 #s1,#s4,#s7{
 	border-left:hidden;
+}
+
+#newGame{
+  background-color: darkcyan;
+  width: 20rem;
+  font-size: 4rem;
+  text-align: center;
+  border-radius: 2rem;
+  margin: 1rem;
+  border-style: solid;
+  box-shadow: 2px 10px 6px #888888;
 }
